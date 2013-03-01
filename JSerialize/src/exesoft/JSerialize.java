@@ -1,7 +1,10 @@
 package exesoft;
 
+import java.io.InputStream;
+
 public class JSerialize {
 
+	
 	public String read(){
 		String json = new String();
 		
@@ -12,8 +15,16 @@ public class JSerialize {
 		
 	}
 	
+	public JSerialize(){
+		
+	}
+	
+	public JSerialize(InputStream in){
+		
+	}
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 
 	}
 
