@@ -64,6 +64,9 @@ serwerze mogą one zostać przez nas nadpisane.
 
 4) Jak będzie wyglądać praca z narzędziem git?
 
+Wszystkie komendy wykonujemy za pomocą lini poleceń znajdując się przy tym w folderze z projektem np:
+C:\JSerialize\
+
 USTAWIAMY GLOBALNA KONFIGURACJE
 - git config --global user.name "IMIE NAZWISKO"
 - git config --global user.email EMAIL
