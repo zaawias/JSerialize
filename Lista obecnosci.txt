@@ -1,11 +1,7 @@
 Karol Kokoszka
 Maciej Bia³as
-<<<<<<< HEAD
-Adrian Skotnicki
-=======
 Karol Milej
 Mateusz Mazur
 Adrian Filipczak
 Krzysztof Jelinek
 Karol Buler
->>>>>>> c269ccb791ed7a8b8d71200de8ae4ee14ebc5cdb
