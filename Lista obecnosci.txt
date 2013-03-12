@@ -1,5 +1,5 @@
 Karol Kokoszka
-Maciej Bia³as
+Maciej Biaï¿½as
 Karol Milej
 Mateusz Mazur
 Adrian Filipczak
@@ -8,4 +8,5 @@ Robert Szulczynski
 Krzysztof Paszuk
 Krzysztof Jelinek
 Adrian Skotnicki
-Micha³ Krakiewicz
+Michaï¿½ Krakiewicz
+Dawid Zawiski
