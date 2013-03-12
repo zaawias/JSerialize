@@ -14,6 +14,8 @@ Aby mieć dostęp do projektu należy wygenerować swój klucz SSH
 
 folder domowy nalezy wpisac w cmd polecenie "set HOME", jezeli nie ma w folderze domowym folderu .ssh nalezy go utworzyc)
 
+WYGENEROWANY KLUCZ PRZESLAC DO KOORDYNATORA NA FB W WIADOMOSCI PRYWATNEJ INACZEJ NIE BEDZIE DOSTEPU
+
 
 1) Instalacja narzędzia do obsługi systemu kontroli wersji - git
 
