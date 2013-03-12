@@ -3,7 +3,8 @@ JSerialize
 
 An University of Zielona Góra student's project about serialization to JSON format in Java language.
 
-0. TWORZENIE KLUCZA SSH WAZNE!!
+0) TWORZENIE KLUCZA SSH WAZNE!!
+
 Aby mieć dostęp do projektu należy wygenerować swój klucz SSH
 -sciagamy program ze strony http://www.ecora.com/ecora/support/putty/puttygen-x86.exe
 -wlaczamy program i klikamy przycisk generate (passphrase mozna zostawic puste)
@@ -55,6 +56,7 @@ osobny branch należy użyć polecenie git branch xxx gdzie xxx to nazwa
 - git push xxx -- zapisanie na serwerze oddzielnego brancha
 
 3) Używanie
+
 Większość operacji jakie wykonujemy, wykonujemy jedynie na plikach lokalnych. Do zapisywanie zmian na serwerze zdalnym 
 
 sluży komenda git push. Wtedy ma miejsce aktualizacja plików zdalnych na podstawie naszych lokalnych zmian. BARDZO WAŻNE 
@@ -64,6 +66,7 @@ jest aby tuż przed wywołaniem komendy git push wywołać komendę git fetch. I
 serwerze mogą one zostać przez nas nadpisane.
 
 4) Jak będzie wyglądać praca z narzędziem git?
+
 USTAWIAMY GLOBALNA KONFIGURACJE
  git config --global user.name "IMIE NAZWISKO"
  git config --global user.email EMAIL
