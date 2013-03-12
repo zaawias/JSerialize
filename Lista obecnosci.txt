@@ -6,3 +6,4 @@ Adrian Filipczak
 Krzysztof Jelinek
 Karol Buler
 Robert Szulczynski
+Krzysztof Paszuk
