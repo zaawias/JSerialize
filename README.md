@@ -14,7 +14,7 @@ Aby mieć dostęp do projektu należy wygenerować swój klucz SSH
 folder domowy nalezy wpisac w cmd polecenie "set HOME", jezeli nie ma w folderze domowym folderu .ssh nalezy go utworzyc)
 
 
-1. Instalacja narzędzia do obsługi systemu kontroli wersji - git
+1) Instalacja narzędzia do obsługi systemu kontroli wersji - git
 
 (WINDOWS)
 - pobranie ze strony http://git-scm.com/download
@@ -30,7 +30,7 @@ folder domowy nalezy wpisac w cmd polecenie "set HOME", jezeli nie ma w folderze
 - użycie programu dpkg do instalacji
 
 
-2. Podstawowe pojęcia dla git
+2) Podstawowe pojęcia dla git
 
 - git clone xxx -- gdzie xxx to adres repozytorium, powoduje pobranie projektu na dysk lokalny
 - git status -- polecenie sprawdza czy nastapily jakies zmiany LOKALNE jezeli tak zostanie wystosowany odpowiedni komunikat
@@ -54,7 +54,7 @@ osobny branch należy użyć polecenie git branch xxx gdzie xxx to nazwa
 - git push -- zapisanie zmian na serwerze zdalnym (nikt nie pushuje bez wiedzy koordynatora)
 - git push xxx -- zapisanie na serwerze oddzielnego brancha
 
-3. Używanie
+3) Używanie
 Większość operacji jakie wykonujemy, wykonujemy jedynie na plikach lokalnych. Do zapisywanie zmian na serwerze zdalnym 
 
 sluży komenda git push. Wtedy ma miejsce aktualizacja plików zdalnych na podstawie naszych lokalnych zmian. BARDZO WAŻNE 
@@ -63,7 +63,7 @@ jest aby tuż przed wywołaniem komendy git push wywołać komendę git fetch. I
 
 serwerze mogą one zostać przez nas nadpisane.
 
-4. Jak będzie wyglądać praca z narzędziem git?
+4) Jak będzie wyglądać praca z narzędziem git?
 USTAWIAMY GLOBALNA KONFIGURACJE
  git config --global user.name "IMIE NAZWISKO"
  git config --global user.email EMAIL
