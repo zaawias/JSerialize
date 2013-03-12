@@ -58,22 +58,19 @@ osobny branch należy użyć polecenie git branch xxx gdzie xxx to nazwa
 3) Używanie
 
 Większość operacji jakie wykonujemy, wykonujemy jedynie na plikach lokalnych. Do zapisywanie zmian na serwerze zdalnym 
-
 sluży komenda git push. Wtedy ma miejsce aktualizacja plików zdalnych na podstawie naszych lokalnych zmian. BARDZO WAŻNE 
-
 jest aby tuż przed wywołaniem komendy git push wywołać komendę git fetch. Inaczej jeżeli ktoś inny zapisał jakies zmiany na 
-
 serwerze mogą one zostać przez nas nadpisane.
 
 4) Jak będzie wyglądać praca z narzędziem git?
 
 USTAWIAMY GLOBALNA KONFIGURACJE
- git config --global user.name "IMIE NAZWISKO"
- git config --global user.email EMAIL
+- git config --global user.name "IMIE NAZWISKO"
+- git config --global user.email EMAIL
 
 Należy pobrać ze zdalnego repozytorium nasz projekt. Otwieramy konsole/terminal i wykonujemy polecenie:
 
-git clone git@github.com:exesoft/JSerialize.git
+- git clone git@github.com:exesoft/JSerialize.git
 
 Polecenie to utworzy w lokalizacji, której się znajdujemy folder o nazwie JSerialize
 
@@ -81,10 +78,10 @@ Po pobraniu powiedzmy, że chcemy wprowadzić zmiany w plikach, a więc otwieram
 
 modyfikujemy zawartość (załóżmy ze zmiany w pliku o nazwe plik.txt), po czym wykonujemy komendy
 
-git add plik.txt
-git commit -m "Komentarz"
-git fetch
-****git push***** <--- tylko przed uprzednim otrzymaniem zgody koordynatora, chyba, ze pracujemy na osobnym od innych 
+- git add plik.txt
+- git commit -m "Komentarz"
+- git fetch
+- ****git push***** -- tylko przed uprzednim otrzymaniem zgody koordynatora, chyba, ze pracujemy na osobnym od innych 
 branchu
 
 
